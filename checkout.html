@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Index - NiceShop Bootstrap Template</title>
+  <title>Checkout - NiceShop Bootstrap Template</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -37,7 +37,7 @@
   ======================================================== -->
 </head>
 
-<body class="index-page">
+<body class="checkout-page">
 
   <header id="header" class="header sticky-top">
     <!-- Top Bar -->
@@ -193,12 +193,12 @@
       <div class="container-fluid container-xl position-relative">
         <nav id="navmenu" class="navmenu">
           <ul>
-            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="category.html">Category</a></li>
             <li><a href="product-details.html">Product Details</a></li>
             <li><a href="cart.html">Cart</a></li>
-            <li><a href="checkout.html">Checkout</a></li>
+            <li><a href="checkout.html" class="active">Checkout</a></li>
             <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
                 <li><a href="#">Dropdown 1</a></li>
@@ -798,732 +798,336 @@
 
   <main class="main">
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero section">
-
-      <div class="hero-container">
-        <div class="hero-content">
-          <div class="content-wrapper" data-aos="fade-up" data-aos-delay="100">
-            <h1 class="hero-title">Discover Amazing Products</h1>
-            <p class="hero-description">Explore our curated collection of premium items designed to enhance your lifestyle. From fashion to tech, find everything you need with exclusive deals and fast shipping.</p>
-            <div class="hero-actions" data-aos="fade-up" data-aos-delay="200">
-              <a href="#products" class="btn-primary">Shop Now</a>
-              <a href="#categories" class="btn-secondary">Browse Categories</a>
-            </div>
-            <div class="features-list" data-aos="fade-up" data-aos-delay="300">
-              <div class="feature-item">
-                <i class="bi bi-truck"></i>
-                <span>Free Shipping</span>
-              </div>
-              <div class="feature-item">
-                <i class="bi bi-award"></i>
-                <span>Quality Guarantee</span>
-              </div>
-              <div class="feature-item">
-                <i class="bi bi-headset"></i>
-                <span>24/7 Support</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="hero-visuals">
-          <div class="product-showcase" data-aos="fade-left" data-aos-delay="200">
-            <div class="product-card featured">
-              <img src="assets/img/product/product-2.webp" alt="Featured Product" class="img-fluid">
-              <div class="product-badge">Best Seller</div>
-              <div class="product-info">
-                <h4>Premium Wireless Headphones</h4>
-                <div class="price">
-                  <span class="sale-price">$299</span>
-                  <span class="original-price">$399</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="product-grid">
-              <div class="product-mini" data-aos="zoom-in" data-aos-delay="400">
-                <img src="assets/img/product/product-3.webp" alt="Product" class="img-fluid">
-                <span class="mini-price">$89</span>
-              </div>
-              <div class="product-mini" data-aos="zoom-in" data-aos-delay="500">
-                <img src="assets/img/product/product-5.webp" alt="Product" class="img-fluid">
-                <span class="mini-price">$149</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="floating-elements">
-            <div class="floating-icon cart" data-aos="fade-up" data-aos-delay="600">
-              <i class="bi bi-cart3"></i>
-              <span class="notification-dot">3</span>
-            </div>
-            <div class="floating-icon wishlist" data-aos="fade-up" data-aos-delay="700">
-              <i class="bi bi-heart"></i>
-            </div>
-            <div class="floating-icon search" data-aos="fade-up" data-aos-delay="800">
-              <i class="bi bi-search"></i>
-            </div>
-          </div>
-        </div>
+    <!-- Page Title -->
+    <div class="page-title light-background">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">Checkout</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Checkout</li>
+          </ol>
+        </nav>
       </div>
+    </div><!-- End Page Title -->
 
-    </section><!-- /Hero Section -->
-
-    <!-- Promo Cards Section -->
-    <section id="promo-cards" class="promo-cards section">
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div class="row gy-4">
-
-          <div class="col-lg-6">
-            <div class="category-featured" data-aos="fade-right" data-aos-delay="200">
-              <div class="category-image">
-                <img src="assets/img/product/product-f-2.webp" alt="Women's Collection" class="img-fluid">
-              </div>
-              <div class="category-content">
-                <span class="category-tag">Trending Now</span>
-                <h2>New Summer Collection</h2>
-                <p>Discover our latest arrivals designed for the modern lifestyle. Elegant, comfortable, and sustainable fashion for every occasion.</p>
-                <a href="#" class="btn-shop">Explore Collection <i class="bi bi-arrow-right"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6">
-
-            <div class="row gy-4">
-
-              <div class="col-xl-6">
-                <div class="category-card cat-men" data-aos="fade-up" data-aos-delay="300">
-                  <div class="category-image">
-                    <img src="assets/img/product/product-m-5.webp" alt="Men's Fashion" class="img-fluid">
-                  </div>
-                  <div class="category-content">
-                    <h4>Men's Wear</h4>
-                    <p>242 products</p>
-                    <a href="#" class="card-link">Shop Now <i class="bi bi-arrow-right"></i></a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-xl-6">
-                <div class="category-card cat-kids" data-aos="fade-up" data-aos-delay="400">
-                  <div class="category-image">
-                    <img src="assets/img/product/product-8.webp" alt="Kid's Fashion" class="img-fluid">
-                  </div>
-                  <div class="category-content">
-                    <h4>Kid's Fashion</h4>
-                    <p>185 products</p>
-                    <a href="#" class="card-link">Shop Now <i class="bi bi-arrow-right"></i></a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-xl-6">
-                <div class="category-card cat-cosmetics" data-aos="fade-up" data-aos-delay="500">
-                  <div class="category-image">
-                    <img src="assets/img/product/product-3.webp" alt="Cosmetics" class="img-fluid">
-                  </div>
-                  <div class="category-content">
-                    <h4>Beauty Products</h4>
-                    <p>127 products</p>
-                    <a href="#" class="card-link">Shop Now <i class="bi bi-arrow-right"></i></a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-xl-6">
-                <div class="category-card cat-accessories" data-aos="fade-up" data-aos-delay="600">
-                  <div class="category-image">
-                    <img src="assets/img/product/product-12.webp" alt="Accessories" class="img-fluid">
-                  </div>
-                  <div class="category-content">
-                    <h4>Accessories</h4>
-                    <p>308 products</p>
-                    <a href="#" class="card-link">Shop Now <i class="bi bi-arrow-right"></i></a>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- /Promo Cards Section -->
-
-    <!-- Best Sellers Section -->
-    <section id="best-sellers" class="best-sellers section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Best Sellers</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row g-5">
-
-          <!-- Product 1 -->
-          <div class="col-lg-3 col-md-6">
-            <div class="product-item">
-              <div class="product-image">
-                <div class="product-badge">Limited</div>
-                <img src="assets/img/product/product-1.webp" alt="Product Image" class="img-fluid" loading="lazy">
-                <div class="product-actions">
-                  <button class="action-btn wishlist-btn">
-                    <i class="bi bi-heart"></i>
-                  </button>
-                  <button class="action-btn compare-btn">
-                    <i class="bi bi-arrow-left-right"></i>
-                  </button>
-                  <button class="action-btn quickview-btn">
-                    <i class="bi bi-zoom-in"></i>
-                  </button>
-                </div>
-                <button class="cart-btn">Select Options</button>
-              </div>
-              <div class="product-info">
-                <div class="product-category">Premium Collection</div>
-                <h4 class="product-name"><a href="product-details.html">Mauris blandit aliquet elit</a></h4>
-                <div class="product-rating">
-                  <div class="stars">
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star"></i>
-                  </div>
-                  <span class="rating-count">(24)</span>
-                </div>
-                <div class="product-price">$189.00</div>
-                <div class="color-swatches">
-                  <span class="swatch active" style="background-color: #2563eb;"></span>
-                  <span class="swatch" style="background-color: #059669;"></span>
-                  <span class="swatch" style="background-color: #dc2626;"></span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- End Product 1 -->
-
-          <!-- Product 2 -->
-          <div class="col-lg-3 col-md-6">
-            <div class="product-item">
-              <div class="product-image">
-                <div class="product-badge sale-badge">25% Off</div>
-                <img src="assets/img/product/product-4.webp" alt="Product Image" class="img-fluid" loading="lazy">
-                <div class="product-actions">
-                  <button class="action-btn wishlist-btn">
-                    <i class="bi bi-heart"></i>
-                  </button>
-                  <button class="action-btn compare-btn">
-                    <i class="bi bi-arrow-left-right"></i>
-                  </button>
-                  <button class="action-btn quickview-btn">
-                    <i class="bi bi-zoom-in"></i>
-                  </button>
-                </div>
-                <button class="cart-btn">Add to Cart</button>
-              </div>
-              <div class="product-info">
-                <div class="product-category">Best Sellers</div>
-                <h4 class="product-name"><a href="product-details.html">Sed do eiusmod tempor incididunt</a></h4>
-                <div class="product-rating">
-                  <div class="stars">
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-half"></i>
-                  </div>
-                  <span class="rating-count">(38)</span>
-                </div>
-                <div class="product-price">
-                  <span class="old-price">$240.00</span>
-                  <span class="current-price">$180.00</span>
-                </div>
-                <div class="color-swatches">
-                  <span class="swatch active" style="background-color: #1f2937;"></span>
-                  <span class="swatch" style="background-color: #f59e0b;"></span>
-                  <span class="swatch" style="background-color: #8b5cf6;"></span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- End Product 2 -->
-
-          <!-- Product 3 -->
-          <div class="col-lg-3 col-md-6">
-            <div class="product-item">
-              <div class="product-image">
-                <img src="assets/img/product/product-7.webp" alt="Product Image" class="img-fluid" loading="lazy">
-                <div class="product-actions">
-                  <button class="action-btn wishlist-btn">
-                    <i class="bi bi-heart"></i>
-                  </button>
-                  <button class="action-btn compare-btn">
-                    <i class="bi bi-arrow-left-right"></i>
-                  </button>
-                  <button class="action-btn quickview-btn">
-                    <i class="bi bi-zoom-in"></i>
-                  </button>
-                </div>
-                <button class="cart-btn">Add to Cart</button>
-              </div>
-              <div class="product-info">
-                <div class="product-category">New Arrivals</div>
-                <h4 class="product-name"><a href="product-details.html">Lorem ipsum dolor sit amet consectetur</a></h4>
-                <div class="product-rating">
-                  <div class="stars">
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star"></i>
-                    <i class="bi bi-star"></i>
-                  </div>
-                  <span class="rating-count">(12)</span>
-                </div>
-                <div class="product-price">$95.00</div>
-                <div class="color-swatches">
-                  <span class="swatch active" style="background-color: #ef4444;"></span>
-                  <span class="swatch" style="background-color: #06b6d4;"></span>
-                  <span class="swatch" style="background-color: #10b981;"></span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- End Product 3 -->
-
-          <!-- Product 4 -->
-          <div class="col-lg-3 col-md-6">
-            <div class="product-item">
-              <div class="product-image">
-                <div class="product-badge trending-badge">Trending</div>
-                <img src="assets/img/product/product-10.webp" alt="Product Image" class="img-fluid" loading="lazy">
-                <div class="product-actions">
-                  <button class="action-btn wishlist-btn active">
-                    <i class="bi bi-heart-fill"></i>
-                  </button>
-                  <button class="action-btn compare-btn">
-                    <i class="bi bi-arrow-left-right"></i>
-                  </button>
-                  <button class="action-btn quickview-btn">
-                    <i class="bi bi-zoom-in"></i>
-                  </button>
-                </div>
-                <button class="cart-btn">Add to Cart</button>
-              </div>
-              <div class="product-info">
-                <div class="product-category">Designer Series</div>
-                <h4 class="product-name"><a href="product-details.html">Ut enim ad minim veniam quis</a></h4>
-                <div class="product-rating">
-                  <div class="stars">
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                  </div>
-                  <span class="rating-count">(56)</span>
-                </div>
-                <div class="product-price">$165.00</div>
-                <div class="color-swatches">
-                  <span class="swatch" style="background-color: #64748b;"></span>
-                  <span class="swatch active" style="background-color: #7c3aed;"></span>
-                  <span class="swatch" style="background-color: #f59e0b;"></span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- End Product 4 -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Best Sellers Section -->
-
-    <!-- Cards Section -->
-    <section id="cards" class="cards section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-          <div class="col-lg-4 col-md-6 mb-5 mb-md-0" data-aos="fade-up" data-aos-delay="200">
-            <div class="product-category">
-              <h3 class="category-title">
-                <i class="bi bi-fire"></i> Trending Now
-              </h3>
-              <div class="product-list">
-                <div class="product-card">
-                  <div class="product-image">
-                    <img src="assets/img/product/product-1.webp" alt="Premium Leather Tote" class="img-fluid">
-                    <div class="product-badges">
-                      <span class="badge-new">New</span>
-                    </div>
-                  </div>
-                  <div class="product-info">
-                    <h4 class="product-name">Premium Leather Tote</h4>
-                    <div class="product-rating">
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-half"></i>
-                      <span>(24)</span>
-                    </div>
-                    <div class="product-price">
-                      <span class="current-price">$87.50</span>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="product-card">
-                  <div class="product-image">
-                    <img src="assets/img/product/product-3.webp" alt="Statement Earrings" class="img-fluid">
-                  </div>
-                  <div class="product-info">
-                    <h4 class="product-name">Statement Earrings</h4>
-                    <div class="product-rating">
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <span>(41)</span>
-                    </div>
-                    <div class="product-price">
-                      <span class="current-price">$39.99</span>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="product-card">
-                  <div class="product-image">
-                    <img src="assets/img/product/product-5.webp" alt="Organic Cotton Shirt" class="img-fluid">
-                  </div>
-                  <div class="product-info">
-                    <h4 class="product-name">Organic Cotton Shirt</h4>
-                    <div class="product-rating">
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star"></i>
-                      <span>(18)</span>
-                    </div>
-                    <div class="product-price">
-                      <span class="current-price">$45.00</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mb-5 mb-md-0" data-aos="fade-up" data-aos-delay="300">
-            <div class="product-category">
-              <h3 class="category-title">
-                <i class="bi bi-award"></i> Best Sellers
-              </h3>
-              <div class="product-list">
-                <div class="product-card">
-                  <div class="product-image">
-                    <img src="assets/img/product/product-2.webp" alt="Slim Fit Denim" class="img-fluid">
-                    <div class="product-badges">
-                      <span class="badge-sale">-15%</span>
-                    </div>
-                  </div>
-                  <div class="product-info">
-                    <h4 class="product-name">Slim Fit Denim</h4>
-                    <div class="product-rating">
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <span>(87)</span>
-                    </div>
-                    <div class="product-price">
-                      <span class="current-price">$68.00</span>
-                      <span class="old-price">$80.00</span>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="product-card">
-                  <div class="product-image">
-                    <img src="assets/img/product/product-6.webp" alt="Designer Handbag" class="img-fluid">
-                  </div>
-                  <div class="product-info">
-                    <h4 class="product-name">Designer Handbag</h4>
-                    <div class="product-rating">
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-half"></i>
-                      <span>(56)</span>
-                    </div>
-                    <div class="product-price">
-                      <span class="current-price">$129.99</span>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="product-card">
-                  <div class="product-image">
-                    <img src="assets/img/product/product-8.webp" alt="Leather Crossbody" class="img-fluid">
-                    <div class="product-badges">
-                      <span class="badge-hot">Hot</span>
-                    </div>
-                  </div>
-                  <div class="product-info">
-                    <h4 class="product-name">Leather Crossbody</h4>
-                    <div class="product-rating">
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <span>(112)</span>
-                    </div>
-                    <div class="product-price">
-                      <span class="current-price">$95.50</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mb-5 mb-md-0" data-aos="fade-up" data-aos-delay="400">
-            <div class="product-category">
-              <h3 class="category-title">
-                <i class="bi bi-star"></i> Featured Items
-              </h3>
-              <div class="product-list">
-                <div class="product-card">
-                  <div class="product-image">
-                    <img src="assets/img/product/product-7.webp" alt="Pleated Midi Skirt" class="img-fluid">
-                  </div>
-                  <div class="product-info">
-                    <h4 class="product-name">Pleated Midi Skirt</h4>
-                    <div class="product-rating">
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star"></i>
-                      <span>(32)</span>
-                    </div>
-                    <div class="product-price">
-                      <span class="current-price">$75.00</span>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="product-card">
-                  <div class="product-image">
-                    <img src="assets/img/product/product-4.webp" alt="Geometric Earrings" class="img-fluid">
-                    <div class="product-badges">
-                      <span class="badge-limited">Limited</span>
-                    </div>
-                  </div>
-                  <div class="product-info">
-                    <h4 class="product-name">Geometric Earrings</h4>
-                    <div class="product-rating">
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-half"></i>
-                      <span>(47)</span>
-                    </div>
-                    <div class="product-price">
-                      <span class="current-price">$42.99</span>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="product-card">
-                  <div class="product-image">
-                    <img src="assets/img/product/product-9.webp" alt="Structured Satchel" class="img-fluid">
-                  </div>
-                  <div class="product-info">
-                    <h4 class="product-name">Structured Satchel</h4>
-                    <div class="product-rating">
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <span>(64)</span>
-                    </div>
-                    <div class="product-price">
-                      <span class="current-price">$89.99</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-    </section><!-- /Cards Section -->
-
-    <!-- Call To Action Section -->
-    <section id="call-to-action" class="call-to-action section">
+    <!-- Checkout Section -->
+    <section id="checkout" class="checkout section">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <div class="main-content text-center" data-aos="zoom-in" data-aos-delay="200">
-              <div class="offer-badge" data-aos="fade-down" data-aos-delay="250">
-                <span class="limited-time">Limited Time</span>
-                <span class="offer-text">50% OFF</span>
-              </div>
-
-              <h2 data-aos="fade-up" data-aos-delay="300">Exclusive Flash Sale</h2>
-
-              <p class="subtitle" data-aos="fade-up" data-aos-delay="350">Don't miss out on our biggest sale of the year. Premium quality products at unbeatable prices for the next 48 hours only.</p>
-
-              <div class="countdown-wrapper" data-aos="fade-up" data-aos-delay="400">
-                <div class="countdown d-flex justify-content-center" data-count="2025/12/31">
-                  <div>
-                    <h3 class="count-days"></h3>
-                    <h4>Days</h4>
+          <div class="col-lg-7">
+            <!-- Checkout Form -->
+            <div class="checkout-container" data-aos="fade-up">
+              <form class="checkout-form">
+                <!-- Customer Information -->
+                <div class="checkout-section" id="customer-info">
+                  <div class="section-header">
+                    <div class="section-number">1</div>
+                    <h3>Customer Information</h3>
                   </div>
-                  <div>
-                    <h3 class="count-hours"></h3>
-                    <h4>Hours</h4>
-                  </div>
-                  <div>
-                    <h3 class="count-minutes"></h3>
-                    <h4>Minutes</h4>
-                  </div>
-                  <div>
-                    <h3 class="count-seconds"></h3>
-                    <h4>Seconds</h4>
+                  <div class="section-content">
+                    <div class="row">
+                      <div class="col-md-6 form-group">
+                        <label for="first-name">First Name</label>
+                        <input type="text" name="first-name" class="form-control" id="first-name" placeholder="Your First Name" required="">
+                      </div>
+                      <div class="col-md-6 form-group">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" name="last-name" class="form-control" id="last-name" placeholder="Your Last Name" required="">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="email">Email Address</label>
+                      <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required="">
+                    </div>
+                    <div class="form-group">
+                      <label for="phone">Phone Number</label>
+                      <input type="tel" class="form-control" name="phone" id="phone" placeholder="Your Phone Number" required="">
+                    </div>
                   </div>
                 </div>
+
+                <!-- Shipping Address -->
+                <div class="checkout-section" id="shipping-address">
+                  <div class="section-header">
+                    <div class="section-number">2</div>
+                    <h3>Shipping Address</h3>
+                  </div>
+                  <div class="section-content">
+                    <div class="form-group">
+                      <label for="address">Street Address</label>
+                      <input type="text" class="form-control" name="address" id="address" placeholder="Street Address" required="">
+                    </div>
+                    <div class="form-group">
+                      <label for="apartment">Apartment, Suite, etc. (optional)</label>
+                      <input type="text" class="form-control" name="apartment" id="apartment" placeholder="Apartment, Suite, Unit, etc.">
+                    </div>
+                    <div class="row">
+                      <div class="col-md-4 form-group">
+                        <label for="city">City</label>
+                        <input type="text" name="city" class="form-control" id="city" placeholder="City" required="">
+                      </div>
+                      <div class="col-md-4 form-group">
+                        <label for="state">State</label>
+                        <input type="text" name="state" class="form-control" id="state" placeholder="State" required="">
+                      </div>
+                      <div class="col-md-4 form-group">
+                        <label for="zip">ZIP Code</label>
+                        <input type="text" name="zip" class="form-control" id="zip" placeholder="ZIP Code" required="">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="country">Country</label>
+                      <select class="form-select" id="country" name="country" required="">
+                        <option value="">Select Country</option>
+                        <option value="US">United States</option>
+                        <option value="CA">Canada</option>
+                        <option value="UK">United Kingdom</option>
+                        <option value="AU">Australia</option>
+                        <option value="DE">Germany</option>
+                        <option value="FR">France</option>
+                      </select>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="save-address" name="save-address">
+                      <label class="form-check-label" for="save-address">
+                        Save this address for future orders
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="billing-same" name="billing-same" checked="">
+                      <label class="form-check-label" for="billing-same">
+                        Billing address same as shipping
+                      </label>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Payment Method -->
+                <div class="checkout-section" id="payment-method">
+                  <div class="section-header">
+                    <div class="section-number">3</div>
+                    <h3>Payment Method</h3>
+                  </div>
+                  <div class="section-content">
+                    <div class="payment-options">
+                      <div class="payment-option active">
+                        <input type="radio" name="payment-method" id="credit-card" checked="">
+                        <label for="credit-card">
+                          <span class="payment-icon"><i class="bi bi-credit-card-2-front"></i></span>
+                          <span class="payment-label">Credit / Debit Card</span>
+                        </label>
+                      </div>
+                      <div class="payment-option">
+                        <input type="radio" name="payment-method" id="paypal">
+                        <label for="paypal">
+                          <span class="payment-icon"><i class="bi bi-paypal"></i></span>
+                          <span class="payment-label">PayPal</span>
+                        </label>
+                      </div>
+                      <div class="payment-option">
+                        <input type="radio" name="payment-method" id="apple-pay">
+                        <label for="apple-pay">
+                          <span class="payment-icon"><i class="bi bi-apple"></i></span>
+                          <span class="payment-label">Apple Pay</span>
+                        </label>
+                      </div>
+                    </div>
+
+                    <div class="payment-details" id="credit-card-details">
+                      <div class="form-group">
+                        <label for="card-number">Card Number</label>
+                        <div class="card-number-wrapper">
+                          <input type="text" class="form-control" name="card-number" id="card-number" placeholder="1234 5678 9012 3456" required="">
+                          <div class="card-icons">
+                            <i class="bi bi-credit-card-2-front"></i>
+                            <i class="bi bi-credit-card"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-6 form-group">
+                          <label for="expiry">Expiration Date</label>
+                          <input type="text" class="form-control" name="expiry" id="expiry" placeholder="MM/YY" required="">
+                        </div>
+                        <div class="col-md-6 form-group">
+                          <label for="cvv">Security Code (CVV)</label>
+                          <div class="cvv-wrapper">
+                            <input type="text" class="form-control" name="cvv" id="cvv" placeholder="123" required="">
+                            <span class="cvv-hint" data-bs-toggle="tooltip" data-bs-placement="top" title="3-digit code on the back of your card">
+                              <i class="bi bi-question-circle"></i>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="card-name">Name on Card</label>
+                        <input type="text" class="form-control" name="card-name" id="card-name" placeholder="John Doe" required="">
+                      </div>
+                    </div>
+
+                    <div class="payment-details d-none" id="paypal-details">
+                      <p class="payment-info">You will be redirected to PayPal to complete your purchase securely.</p>
+                    </div>
+
+                    <div class="payment-details d-none" id="apple-pay-details">
+                      <p class="payment-info">You will be prompted to authorize payment with Apple Pay.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Order Review -->
+                <div class="checkout-section" id="order-review">
+                  <div class="section-header">
+                    <div class="section-number">4</div>
+                    <h3>Review &amp; Place Order</h3>
+                  </div>
+                  <div class="section-content">
+                    <div class="form-check terms-check">
+                      <input class="form-check-input" type="checkbox" id="terms" name="terms" required="">
+                      <label class="form-check-label" for="terms">
+                        I agree to the <a href="#" data-bs-toggle="modal" data-bs-target="#termsModal">Terms and Conditions</a> and <a href="#" data-bs-toggle="modal" data-bs-target="#privacyModal">Privacy Policy</a>
+                      </label>
+                    </div>
+                    <div class="success-message d-none">Your order has been placed successfully! Thank you for your purchase.</div>
+                    <div class="place-order-container">
+                      <button type="submit" class="btn btn-primary place-order-btn">
+                        <span class="btn-text">Place Order</span>
+                        <span class="btn-price">$240.96</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <div class="col-lg-5">
+            <!-- Order Summary -->
+            <div class="order-summary" data-aos="fade-left" data-aos-delay="200">
+              <div class="order-summary-header">
+                <h3>Order Summary</h3>
+                <span class="item-count">2 Items</span>
               </div>
 
-              <div class="action-buttons" data-aos="fade-up" data-aos-delay="450">
-                <a href="#" class="btn-shop-now">Shop Now</a>
-                <a href="#" class="btn-view-deals">View All Deals</a>
+              <div class="order-summary-content">
+                <div class="order-items">
+                  <div class="order-item">
+                    <div class="order-item-image">
+                      <img src="assets/img/product/product-1.webp" alt="Product" class="img-fluid">
+                    </div>
+                    <div class="order-item-details">
+                      <h4>Lorem Ipsum Dolor</h4>
+                      <p class="order-item-variant">Color: Black | Size: M</p>
+                      <div class="order-item-price">
+                        <span class="quantity">1 ×</span>
+                        <span class="price">$89.99</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="order-item">
+                    <div class="order-item-image">
+                      <img src="assets/img/product/product-2.webp" alt="Product" class="img-fluid">
+                    </div>
+                    <div class="order-item-details">
+                      <h4>Sit Amet Consectetur</h4>
+                      <p class="order-item-variant">Color: White | Size: L</p>
+                      <div class="order-item-price">
+                        <span class="quantity">2 ×</span>
+                        <span class="price">$59.99</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="promo-code">
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Promo Code" aria-label="Promo Code">
+                    <button class="btn btn-outline-primary" type="button">Apply</button>
+                  </div>
+                </div>
+
+                <div class="order-totals">
+                  <div class="order-subtotal d-flex justify-content-between">
+                    <span>Subtotal</span>
+                    <span>$209.97</span>
+                  </div>
+                  <div class="order-shipping d-flex justify-content-between">
+                    <span>Shipping</span>
+                    <span>$9.99</span>
+                  </div>
+                  <div class="order-tax d-flex justify-content-between">
+                    <span>Tax</span>
+                    <span>$21.00</span>
+                  </div>
+                  <div class="order-total d-flex justify-content-between">
+                    <span>Total</span>
+                    <span>$240.96</span>
+                  </div>
+                </div>
+
+                <div class="secure-checkout">
+                  <div class="secure-checkout-header">
+                    <i class="bi bi-shield-lock"></i>
+                    <span>Secure Checkout</span>
+                  </div>
+                  <div class="payment-icons">
+                    <i class="bi bi-credit-card-2-front"></i>
+                    <i class="bi bi-credit-card"></i>
+                    <i class="bi bi-paypal"></i>
+                    <i class="bi bi-apple"></i>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="row featured-products-row" data-aos="fade-up" data-aos-delay="500">
-          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
-            <div class="product-showcase">
-              <div class="product-image">
-                <img src="assets/img/product/product-5.webp" alt="Featured Product" class="img-fluid">
-                <div class="discount-badge">-45%</div>
+        <!-- Terms and Privacy Modals -->
+        <div class="modal fade" id="termsModal" tabindex="-1" aria-labelledby="termsModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="termsModalLabel">Terms and Conditions</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-              <div class="product-details">
-                <h6>Premium Wireless Headphones</h6>
-                <div class="price-section">
-                  <span class="original-price">$129</span>
-                  <span class="sale-price">$71</span>
-                </div>
-                <div class="rating-stars">
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <span class="rating-count">(324)</span>
-                </div>
+              <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor.</p>
+                <p>Suspendisse in orci enim. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor.</p>
+                <p>Suspendisse in orci enim. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">I Understand</button>
               </div>
             </div>
-          </div><!-- End Product Showcase -->
+          </div>
+        </div>
 
-          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="150">
-            <div class="product-showcase">
-              <div class="product-image">
-                <img src="assets/img/product/product-7.webp" alt="Featured Product" class="img-fluid">
-                <div class="discount-badge">-60%</div>
+        <div class="modal fade" id="privacyModal" tabindex="-1" aria-labelledby="privacyModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="privacyModalLabel">Privacy Policy</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-              <div class="product-details">
-                <h6>Smart Fitness Tracker</h6>
-                <div class="price-section">
-                  <span class="original-price">$89</span>
-                  <span class="sale-price">$36</span>
-                </div>
-                <div class="rating-stars">
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-half"></i>
-                  <span class="rating-count">(198)</span>
-                </div>
+              <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim.</p>
+                <p>Suspendisse in orci enim. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor.</p>
+                <p>Suspendisse in orci enim. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">I Understand</button>
               </div>
             </div>
-          </div><!-- End Product Showcase -->
-
-          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
-            <div class="product-showcase">
-              <div class="product-image">
-                <img src="assets/img/product/product-11.webp" alt="Featured Product" class="img-fluid">
-                <div class="discount-badge">-35%</div>
-              </div>
-              <div class="product-details">
-                <h6>Luxury Travel Backpack</h6>
-                <div class="price-section">
-                  <span class="original-price">$159</span>
-                  <span class="sale-price">$103</span>
-                </div>
-                <div class="rating-stars">
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <span class="rating-count">(267)</span>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Product Showcase -->
-
-          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="250">
-            <div class="product-showcase">
-              <div class="product-image">
-                <img src="assets/img/product/product-1.webp" alt="Featured Product" class="img-fluid">
-                <div class="discount-badge">-55%</div>
-              </div>
-              <div class="product-details">
-                <h6>Artisan Coffee Mug Set</h6>
-                <div class="price-section">
-                  <span class="original-price">$75</span>
-                  <span class="sale-price">$34</span>
-                </div>
-                <div class="rating-stars">
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star"></i>
-                  <span class="rating-count">(142)</span>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Product Showcase -->
+          </div>
         </div>
 
       </div>
 
-    </section><!-- /Call To Action Section -->
+    </section><!-- /Checkout Section -->
 
   </main>
 
